@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btnMenu {
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
+
+.navbar-brand {
+  letter-spacing: 3px;
+  font-family: 'Zen Antique', serif;
+  color: #1e013a;
+}
+
+/* Card */
+.card {
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cardProduct {
+  transition: all 0.5s ease;
+}
+
+.cardProduct:hover {
+  transform: scale(1.03);
+  box-shadow: 13px 3px 7px rgba(0, 0, 0, 0.5);
+}
+/* Produto */
+.product img {
+  transition: all 0.5s ease;
+}
+
+.product img:hover {
+  transform: scale(1.03);
+}
+
+.txtMenu {
+  font-family: 'Zen Antique', serif;
+  font-size: 15pt;
+  color: #1d0136;
+
+}
+
+.txtMenu:hover {
+  color: #5e00b7;
+}
+
+.txtTitulo {
+  font-family: 'Zen Antique', serif;
+  font-size: 23pt;
+  color: #1e013a;
+}
+
+h4 {
+ color: #000000;
+ font-family: 'League Spartan', sans-serif;
+ font-weight: 600;
+}
+
+h4:hover {
+  color: #4B0082;
+}
